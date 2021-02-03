@@ -28,6 +28,7 @@ app.get('/api/availability', (req, res) => {
 });
 
 app.get('/api/workspace-description/:id', (req, res) => {
+
   const { id } = req.params;
 
   axios.get(`http://localhost:6060/api/workspace-description/${id}`)
@@ -39,22 +40,24 @@ app.get('/api/workspace-description/:id', (req, res) => {
     })
 })
 
-app.get('/workspace-api/workspace/:id', async (req, res) => {
-  console.log('here')
+app.get('/workspace-api/workspace/:id', (req, res) => {
+
   const { id } = req.params;
-  try {
-    const { data } = await axios.get(`http://localhost:4000/workspace-api/workspace/${id}`);
-    res.json(data);
-  } catch (err) {
-    console.log('error hit');
-  }
 
-})
-
-
+  axios.get(`http://localhost:4000/workspace-api/workspace/${id}`)
+    .then(response => {
+      res.json(response.data)
+    })
+    .catch(err => {
+      console.log('error hit');
+    })
 
 
+});
 
+app.get('*', (req, res) => {
+  console.log('anotha one')
+});
 
 app.listen(port, () => {
   console.log(`listening on http://localhost:${port}`);
