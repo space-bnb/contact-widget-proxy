@@ -1,0 +1,52 @@
+.nav-container {
+  padding: 0 60px;
+  width: 100%;
+}
+.nav-inner {
+  height: 80px;
+  display: flex;
+  align-items: center;
+}
+
+.items {
+  display: flex;
+  margin-left: 3rem;
+}
+.item {
+  margin-top: 2px;
+  margin-right: 1.875rem;
+}
+
+.save-link {
+  margin-left: auto;
+  margin-right: 3rem;
+}
+
+.link-stub {
+  color: #000;
+  text-decoration: none;
+  position: relative;
+  padding-bottom: 8px;
+}
+
+.link-stub:hover {
+  cursor: pointer;
+}
+
+.link-stub:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #000;
+  visibility: hidden;
+  transform: scaleX(0);
+  transition: all 0.3s ease-in-out;
+}
+
+.link-stub:hover:before {
+  visibility: visible;
+  transform: scaleX(1);
+}

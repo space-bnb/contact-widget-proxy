@@ -55,10 +55,6 @@ app.get('/workspace-api/workspace/:id', (req, res) => {
 
 });
 
-app.get('*', (req, res) => {
-  console.log('anotha one')
-});
-
 app.listen(port, () => {
   console.log(`listening on http://localhost:${port}`);
 });
