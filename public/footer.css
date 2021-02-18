@@ -11,8 +11,8 @@ footer {
 }
 
 .middle-block {
-  display: grid;
-  grid-template-columns: 70% 30%;
+  display: flex;
+  justify-content: space-between;
 }
 
 .footer-links {
@@ -44,7 +44,7 @@ footer {
 }
 
 .icons i {
-  margin-right: 3rem;
+  margin-left: 3rem;
 }
 
 .language-wrapper {
@@ -89,6 +89,70 @@ footer {
 
 .bottom-block {
   display: flex;
-  align-items: stretch;
-  margin: 0 -12px;
+  justify-content: space-between;
+  padding-top: 40px;
+}
+
+.location-select {
+  color: blue;
+  display: flex;
+}
+
+.location-select p {
+  padding-right: 10px;
+  padding-bottom: 20px;
+}
+
+.address {
+  line-height: 1.5rem;
+}
+
+.legal-section {
+  display: flex;
+}
+
+.legal-menu ul {
+  display: flex;
+  color: blue;
+  margin-bottom: .75rem;
+}
+
+.col-2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.copyright {
+  color: #666
+}
+
+.logo {
+  margin-left: 1.5rem;
+}
+
+.breadcrumbs {
+  background-color: #f7f7f7;
+  border-top: 1px solid #e6e6e6;
+  border-bottom: 1px solid #e6e6e6;
+  height: 64px;
+  font-size: 12px;
+  color: #666;
+  padding: 0 60px;
+  display: flex;
+  align-items: center;
+}
+
+.breadcrumbs ul {
+  display: flex;
+}
+
+.breadcrumbs li, .breadcrumbs li a {
+  margin-right: 8px;
+}
+
+.breadcrumbs li:not(:last-child)::after {
+  content: ">";
+  width: 0.625rem;
+  height: 1.875rem;
 }
