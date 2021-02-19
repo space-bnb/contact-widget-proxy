@@ -49,10 +49,11 @@
   <div class="page-container">
     <div class="content">
       <div class="column-a">
-        <div id="app"></div>
+        <div id="photos-slider"></div>
         <div id="workspaces"></div>
-        <div id="workspace-description"></div>
+        <!-- <div id="amenities"></div> -->
         <div id="location-service"></div>
+        <div id="workspace-description"></div>
         <div id="reviews"></div>
         <div id="nearby"></div>
       </div>
@@ -168,10 +169,12 @@
   </footer>
 </body>
 <script src="https://kit.fontawesome.com/bb32e62705.js" crossorigin="anonymous"></script>
-<script src="http://localhost:6060/workspace-description.js"></script>
-<script src="http://localhost:4000/workspaces.js"></script>
-<script src="http://localhost:3002/main.js"></script>
-<script src="http://localhost:3001/main.js"></script>
-<script src="http://localhost:5001/nearby.js"></script>
-<script src="http://localhost:5002/reviews.js"></script>
+<script src="https://rpt25-photos-service.s3-us-west-1.amazonaws.com/js/workspace-description.js"></script>
+<script src="https://rpt25-photos-service.s3-us-west-1.amazonaws.com/js/photos-slider.js"></script>
+<script src="https://workspaces-service.s3-us-west-1.amazonaws.com/dist/workspaces.js"></script>
+<script src="https://fec-location-service.s3.us-east-2.amazonaws.com/main.js"></script>
+<script src="https://fec-contact-service.s3.us-east-2.amazonaws.com/main.js"></script>
+<script src="https://spacework-bundles.s3-us-west-1.amazonaws.com/nearby.js"></script>
+<script src="https://spacework-bundles.s3-us-west-1.amazonaws.com/reviews.js"></script>
+<!-- <script src="https://amenities-service.s3-us-west-1.amazonaws.com/amenities.js"></script>" -->
 </html>
