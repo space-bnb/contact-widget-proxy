@@ -4,9 +4,12 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Space work</title>
-  <link rel="stylesheet" href="reset.css">
-  <link rel="stylesheet" href="layout.css">
-  <link rel="stylesheet" href="navbar.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="reset.css" />
+  <link rel="stylesheet" href="layout.css" />
+  <link rel="stylesheet" href="navbar.css" />
+  <link rel="stylesheet" href="footer.css" />
   <link href='https://api.mapbox.com/mapbox-gl-js/v2.0.1/mapbox-gl.css' rel='stylesheet' />
 </head>
 <body>
@@ -59,7 +62,110 @@
 
     </div>
   </div>
-  <footer></footer>
+  <div class="breadcrumbs">
+    <ul>
+      <li><a>All locations</a></li>
+      <li><a>Region</a></li>
+      <li><a>City</a></li>
+      <li><a>Neighborhood</a></li>
+      <li><a>Building</a></li>
+    </ul>
+  </div>
+  <footer>
+    <div class="inner-footer">
+      <div class="middle-block">
+        <div class="footer-links">
+          <div class="list">
+            <h3>Company</h3>
+            <ul>
+              <li class="footer-list-item">Global Locations</li>
+              <li class="footer-list-item">Mission</li>
+              <li class="footer-list-item">Inclusion & Diversity</li>
+              <li class="footer-list-item">Careers</li>
+              <li class="footer-list-item">Investors</li>
+              <li class="footer-list-item">Newsroom</li>
+            </ul>
+          </div>
+          <div class="list">
+            <h3>Partnerships</h3>
+            <ul>
+              <li class="footer-list-item">Brokers</li>
+              <li class="footer-list-item">Landlords</li>
+              <li class="footer-list-item">Refer a Friend</li>
+              <li class="footer-list-item">Event Planners</li>
+              <li class="footer-list-item">Referral Partners</li>
+            </ul>
+          </div>
+          <div class="list">
+            <h3>Impact</h3>
+            <ul>
+              <li class="footer-list-item">Refugee Initiative</li>
+              <li class="footer-list-item">Veterans in Residence</li>
+            </ul>
+          </div>
+          <div class="list">
+            <h3>Support</h3>
+            <ul class="footer-list">
+              <li class="footer-list-item">COVID Response</li>
+              <li class="footer-list-item">FAQ</li>
+              <li class="footer-list-item">Contact Us</li>
+            </ul>
+          </div>
+        </div>
+        <div class="selector">
+          <div class="icons">
+            <i class="fab fa-facebook-f fa-lg"></i>
+            <i class="fab fa-instagram fa-lg"></i>
+            <i class="fab fa-twitter fa-lg"></i>
+            <i class="fab fa-linkedin-in fa-lg"></i>
+          </div>
+          <div class="language-wrapper">
+            <label>Language</label>
+            <div class="inner-content">
+              <p>English</p>
+              <i class="fas fa-caret-down"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="bottom-block">
+        <div class="col-1">
+          <div class="contact-info">
+            <div class="location-select">
+              <p>All Locations</p>
+              <i class="fas fa-caret-down"></i>
+            </div>
+            <div class="address">
+              <p style="color: blue;">(646) 389-3992</p>
+              <p>WeWork HQ, 115 W 18th St.</p>
+              <p>New York, NY 10011</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-2">
+          <div class="legal-section">
+            <div>
+              <div class="legal-menu">
+                <ul>
+                  <li class="footer-list-item">Privacy</li>
+                  <li class="footer-list-item">Terms</li>
+                  <li class="footer-list-item">Cookies</li>
+                  <li class="footer-list-item">Accessibility</li>
+                  <li class="footer-list-item">Sitemap</li>
+                </ul>
+              </div>
+              <div class="copyright">
+                Copyright © 2021 WeWork Companies Inc. All rights reserved
+              </div>
+            </div>
+            <div class="logo">
+              <img src="https://www.wework.com/vanilla-assets/images/we_logo.a32545795fe3f59def511d1b8069c271.svg" height="48px;"/>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
 </body>
 <script src="https://kit.fontawesome.com/bb32e62705.js" crossorigin="anonymous"></script>
 <script src="http://localhost:6060/workspace-description.js"></script>

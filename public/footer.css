@@ -1,0 +1,158 @@
+footer {
+  padding: 4rem 0;
+  background-color: #f7f7f7;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
+
+.inner-footer {
+  padding: 0 60px;
+}
+
+.middle-block {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-links {
+  display: flex;
+}
+
+.footer-links h3 {
+  padding-bottom: 10px;
+  color: #666;
+  text-transform: uppercase;
+  font-size: 0.875rem;
+  font-weight: 400;
+  line-height: 1.5rem;
+}
+
+.footer-list-item {
+  margin-right: 24px;
+  padding: 5px 0;
+}
+
+.footer-list-item:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.icons {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.icons i {
+  margin-left: 3rem;
+}
+
+.language-wrapper {
+  border: .0625rem solid #666;
+  background-color: #fff;
+  border-radius: .25rem;
+  position: relative;
+  height: 3.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.language-wrapper {
+  padding: 0 11px
+}
+
+.selector {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+
+.selector label {
+  font-size: .75rem;
+  padding-top: 0;
+  top: -.375rem;
+  left: .375rem;
+  padding-left: .375rem;
+  padding-right: .375rem;
+  width: auto;
+  height: auto;
+  background: #FFF;
+  position: absolute;
+}
+
+.inner-content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.bottom-block {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 40px;
+}
+
+.location-select {
+  color: blue;
+  display: flex;
+}
+
+.location-select p {
+  padding-right: 10px;
+  padding-bottom: 20px;
+}
+
+.address {
+  line-height: 1.5rem;
+}
+
+.legal-section {
+  display: flex;
+}
+
+.legal-menu ul {
+  display: flex;
+  color: blue;
+  margin-bottom: .75rem;
+}
+
+.col-2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.copyright {
+  color: #666
+}
+
+.logo {
+  margin-left: 1.5rem;
+}
+
+.breadcrumbs {
+  background-color: #f7f7f7;
+  border-top: 1px solid #e6e6e6;
+  border-bottom: 1px solid #e6e6e6;
+  height: 64px;
+  font-size: 12px;
+  color: #666;
+  padding: 0 60px;
+  display: flex;
+  align-items: center;
+}
+
+.breadcrumbs ul {
+  display: flex;
+}
+
+.breadcrumbs li, .breadcrumbs li a {
+  margin-right: 8px;
+}
+
+.breadcrumbs li:not(:last-child)::after {
+  content: ">";
+  width: 0.625rem;
+  height: 1.875rem;
+}
