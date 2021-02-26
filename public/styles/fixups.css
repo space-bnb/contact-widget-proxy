@@ -1,0 +1,78 @@
+/* layout */
+.column-a {
+  margin-right: 12px;
+}
+
+.column-b {
+  margin-left: 12px;
+}
+
+.column-a > div:not(:first-child) {
+  padding-top: 48px;
+}
+
+h2, h4, a {
+  margin: 0 !important;
+}
+
+#amenities h2, #amenities h4, #amenities a {
+  margin: 20px;
+}
+
+/* form  */
+.self-serve-wrapper button {
+  box-sizing: border-box;
+  height: 56px;
+}
+
+button.up, button.down {
+  box-sizing: border-box;
+  height: 100%;
+  border-radius: 0;
+}
+
+/* workspaces */
+.modal-container {
+  display: flex;
+  padding: 10px 0 20px 0;
+}
+
+.persons-button, .date-button {
+  right: 0px !important;
+}
+
+.persons-container {
+  padding-right: 10px
+}
+
+.persons-modal {
+  z-index: 1000;
+}
+
+.main-title {
+  padding: 10px 0 !important;
+}
+
+/* Location Service */
+.marker {
+  height: 16px !important;
+  width: 16px !important;
+}
+
+.mapboxgl-popup-content h3 {
+  font-size: 1rem;
+}
+
+.map-wrapper h2 {
+  margin: 0;
+}
+
+# {
+  padding-top: 48px;
+}
+
+/* Amenities */
+
+#amenity-full {
+  margin: 0;
+}
