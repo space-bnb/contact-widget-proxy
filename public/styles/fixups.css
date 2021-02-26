@@ -76,3 +76,9 @@ button.up, button.down {
 #amenity-full {
   margin: 0;
 }
+
+/* Reviews */
+
+#nearby div:last-child {
+  margin-bottom: 0;
+}
