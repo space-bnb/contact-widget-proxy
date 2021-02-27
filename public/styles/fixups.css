@@ -15,6 +15,14 @@ h2, h4, a {
   margin: 0 !important;
 }
 
+.header {
+  margin: 40px 0 32px;
+}
+
+.styles__H1-moct05-1.bpmtjR {
+  font-size: 40px;
+}
+
 #amenities h2, #amenities h4, #amenities a {
   margin: 20px;
 }
